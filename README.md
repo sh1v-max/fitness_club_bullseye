@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Click [here]([http://localhost:3000](https://sh1v-max.github.io/fitness_club_bullseye/)) to view it in your browser.
+Click ([here](https://sh1v-max.github.io/fitness_club_bullseye/)) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
