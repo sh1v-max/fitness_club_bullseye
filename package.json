@@ -1,6 +1,5 @@
 {
-  "homepage": "https://Shashankp36.github.io/fitness_club_Bullseye",
-  "name": "fitness_club_bullseye",
+  "homepage": "https://sh1v-max.github.io/fitness_club_bullseye",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +7,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
-    "homepage": "https://github.com/Shashankp36/fitness_club_Bullseye",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.1",
     "react-dom": "^18.2.0",
@@ -16,10 +14,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

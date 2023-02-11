@@ -16,16 +16,6 @@ const BookForm = ({ addBook }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-        <div className="form-group">
-        <label htmlFor="isbn">ISBN:</label>
-        <input
-          type="text"
-          className="form-control"
-          id="isbn"
-          value={isbn}
-          onChange={(e) => setIsbn(e.target.value)}
-        />
-      </div>
       <div className="form-group">
         <label htmlFor="title">Title:</label>
         <input
@@ -36,6 +26,7 @@ const BookForm = ({ addBook }) => {
           onChange={(e) => setTitle(e.target.value)}
         />
       </div>
+
       <div className="form-group">
         <label htmlFor="author">Author:</label>
         <input
@@ -46,7 +37,18 @@ const BookForm = ({ addBook }) => {
           onChange={(e) => setAuthor(e.target.value)}
         />
       </div>
-      
+      <div className="form-group">
+        <label htmlFor="isbn">ISBN:</label>
+        <input
+          type="text"
+          className="form-control"
+          id="isbn"
+          value={isbn}
+          onChange={(e) => setIsbn(e.target.value)}
+        />
+      </div>
+      <br/>
+
       <button type="submit" className="btn btn-primary">
         Add Book
       </button>

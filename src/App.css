@@ -1,7 +1,9 @@
 .container {
   max-width: 600px;
   margin: 0 auto;
-  background-color:white;
+  background-color:rgb(197, 197, 197);
+  border-radius: 10px;
+  padding-bottom: 10px;
 }
 
 label {
